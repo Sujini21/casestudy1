@@ -18,48 +18,8 @@ body {
     text-align: center;
 }
 
-/* =========================
-   MENU
-========================= */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    background-color: #34495e;
-    display: flex;
-    justify-content: center;
-}
 
-ul li {
-    margin: 0 15px;
-}
 
-ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-ul li a:hover {
-    color: #f1c40f;
-}
-
-/* =========================
-   CHECKOUT CONTAINER
-========================= */
-.checkout-container {
-    width: 80%;
-    margin: 30px auto;
-}
-
-/* =========================
-   BILL CARD
-========================= */
-.bill-card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-}
 
 /* =========================
    TEXT STYLING
@@ -86,9 +46,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #219150;
-}
+
 
 /* =========================
    FOOTER
@@ -108,4 +66,5 @@ footer {
     .no-print {
         display: none;
     }
+
 }
